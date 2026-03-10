@@ -35,7 +35,7 @@ header {
   /*text-transform: uppercase;*/
 }
 header h1 {
-  font-size: 9vw;
+  font-size: 9vw;/*font se molda de acordo com a viewport de cada aparelho / tela */
   font-family: var(--font2);
 }
 header > p {
@@ -53,7 +53,7 @@ header a:hover, footer  a:hover {
 
 }
 h2 {
-  font-size: 8vw;
+  font-size: 8vw; /*font se adapta a cada variação de tela de cada aparelho*/
   font-family: var(--font3);
   font-variant: small-caps;
   background-color: #fff;
@@ -64,7 +64,7 @@ section {
   padding-left: 20px;
   font-family: cursive;
   line-height: 40px;
-  padding-top: 10vh;
+  padding-top: 10vh;/* adapita o padding a 10% da tela referida dando melhor usabilidade do sit, contro de espaçõs*/
   padding-bottom: 10vh;
   background-color: #ffffff;
   p {
@@ -79,9 +79,10 @@ section.imagen {
   background-attachment: fixed;
   background-size: cover;
   background-position: bottom center;
-
+  box-shadow: inset 7px 7px 20px 0px #00000075;
+  /*Nesting (aninhamento), e um recurso muito utio, descobri sem querer e não parei mas de usar kkk, perguntei ao gemini hoje deia 10/03/26, e desobri que era um aninhamento, to tentando uma transiçao de careira espero que daqui um ano estaja revindo esse coido, rindo e trabalhando na area que eu quero */
   p{
-    display: inline-block;
+    display: inline-block;/* tranforma o texto em uma div blocada*/
     border-radius: 5px;
     padding: 10px;
     background-color: #000000bb;
@@ -97,11 +98,12 @@ section.imagen#img02 {
   
 }
 section.imagen#img03 {
-  background-image: url('imagens/fundo4.jpeg');
+  background-image: url('imagens/fundo5.jpg');
   
 }
 blockquote{
   background-color: #fff;
+  /*Nesting(aninhamento), recurso muito utio, depois que descobri por acidente não parei mas de ussar, depois preguntei para o gemini o qeu e descobre que era um aninhamento kkk */
   h3 {
     font-variant: small-caps;
   }
