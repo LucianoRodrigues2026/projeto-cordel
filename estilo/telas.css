@@ -1,0 +1,28 @@
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  body {
+    width: 80vw;
+    margin: 0 auto;
+    border: 3px solid #ffffff37;
+    
+  }
+  
+  html {
+    background-color: black;
+    
+  
+}
+
+h2 {  font-size: 5vw;}
+
+section {
+  line-height: 4em;
+  p {
+    font-size: 5vw;
+  }
+  
+}
+blockquote{
+  line-height: 2em;
+  text-indent: 10px;
+}
+}
